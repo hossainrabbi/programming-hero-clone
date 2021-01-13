@@ -9,6 +9,10 @@ h1 {
   font-weight: 800;
 }
 
+video {
+  max-width: 100%;
+}
+
 .main-title {
   color: #030303fc;
   margin-bottom: 60px;
@@ -120,8 +124,29 @@ h1 {
 }
 
 /** /------- Can Be Learned -------/ **/
+.learn-info {
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.learn-info video {
+  border-radius: 10px;
+}
+.learn-info .registration-closed {
+  background-image: linear-gradient(#6d49f3, #5d15e5);
+  padding: 12px 5px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.learn-info .learn-req {
+  margin-top: -10px;
+  color: #646464;
+}
+
 .can-be-learned .icon {
   background-color: #fb6f5b;
-  padding: 0 5px;
-  margin-top: 5px;
+  padding: 2px 5px;
+  margin-top: 6px;
 }
