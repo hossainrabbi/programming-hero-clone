@@ -1,0 +1,107 @@
+/** /------- BASIC -------/ **/
+h1 {
+  font-weight: 800;
+}
+
+.main-title {
+  color: #030303fc;
+  margin-bottom: 60px;
+}
+
+.custom-btn {
+  background-color: #8c7dbf;
+  padding: 10px 35px;
+}
+
+.mtop-100 {
+  margin-top: 100px;
+}
+
+/** /------- Navbar -------/ **/
+.custom-navbar {
+  background-color: #5f20e9;
+  padding: 0;
+}
+
+.custom-navbar .navbar-brand img {
+  height: 30px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navbar-nav .nav-link img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+/** /------- Slider -------/ **/
+.slider-area {
+  color: #ffffff;
+  background-color: #5f20e9;
+  height: 570px;
+}
+
+.slider-area .carousel-control-next,
+.slider-area .carousel-control-prev {
+  display: none;
+}
+
+.slider-area .carousel-item {
+  padding: 50px 0;
+  height: 450px;
+}
+
+/** /------- Next Batch -------/ **/
+.next-batch {
+  background-color: #ffffff;
+  padding: 60px 40px;
+  border-radius: 20px;
+  margin-top: -90px;
+  width: 80%;
+}
+
+.next-batch h5 {
+  color: #000000;
+  font-weight: 600;
+}
+
+.next-batch .icon {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.next-batch .icon.icon-1 {
+  background-color: #5e17e6;
+}
+.next-batch .icon.icon-2 {
+  background-color: #ffa92f;
+}
+.next-batch .icon.icon-3 {
+  background-color: #fb6f5b;
+}
+.next-batch .icon.icon-4 {
+  background-color: #ff2264;
+}
+
+.next-batch-btn {
+  color: #ffffff;
+  background-color: #5f20e9;
+  padding: 4px;
+  margin-top: 50px;
+}
+
+.next-batch-btn h5 {
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
