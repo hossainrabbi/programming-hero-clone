@@ -1,4 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
 /** /------- BASIC -------/ **/
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
 h1 {
   font-weight: 800;
 }
@@ -11,6 +17,23 @@ h1 {
 .custom-btn {
   background-color: #8c7dbf;
   padding: 10px 35px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.text {
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .mtop-100 {
@@ -70,17 +93,6 @@ h1 {
   font-weight: 600;
 }
 
-.next-batch .icon {
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
-  border-radius: 5px;
-  color: #ffffff;
-  display: inline-block;
-  margin-right: 10px;
-}
-
 .next-batch .icon.icon-1 {
   background-color: #5e17e6;
 }
@@ -105,4 +117,11 @@ h1 {
   color: #ffffff;
   margin-bottom: 0;
   margin-left: 20px;
+}
+
+/** /------- Can Be Learned -------/ **/
+.can-be-learned .icon {
+  background-color: #fb6f5b;
+  padding: 0 5px;
+  margin-top: 5px;
 }
