@@ -155,13 +155,13 @@ video {
     margin-bottom: 50px;
   }
 
+  /** /------- Slider -------/ **/
   .slider-area {
     height: 900px;
   }
   .slider-area .carousel-item {
     height: 800px;
   }
-
   .slider-area .carousel-item img {
     max-width: 80%;
     margin: auto;
