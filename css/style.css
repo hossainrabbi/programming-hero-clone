@@ -43,6 +43,7 @@ h1 {
   color: #ffffff;
   background-color: #5f20e9;
   height: 570px;
+  min-height: 570px;
 }
 
 .slider-area .carousel-control-next,
