@@ -80,7 +80,6 @@ video {
 .slider-area .carousel-item {
   padding: 50px 0;
   height: 450px;
-  min-height: 450px;
 }
 
 /** /------- Next Batch -------/ **/
@@ -149,4 +148,22 @@ video {
   background-color: #fb6f5b;
   padding: 2px 5px;
   margin-top: 6px;
+}
+
+@media (max-width: 767px) {
+  .m-bottom-50 {
+    margin-bottom: 50px;
+  }
+
+  .slider-area {
+    height: 900px;
+  }
+  .slider-area .carousel-item {
+    height: 800px;
+  }
+
+  .slider-area .carousel-item img {
+    max-width: 80%;
+    margin: auto;
+  }
 }
